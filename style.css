@@ -1,3 +1,31 @@
 img {
   width: 250px;
 }
+.a {
+  background-color: white;
+}
+
+.a:hover {
+  background-color: #00ab44;
+}
+/*Create pseudo class to make class for each nav link, this allows them to change color upon hover*/
+.Home {
+  background-color: white;
+}
+.Home:hover {
+  background-color: #00ab44;
+}
+
+.ContactMe {
+  background-color: white;
+}
+.ContactMe:hover {
+  background-color: #00ab44;
+}
+
+.Projects {
+  background-color: white;
+}
+.Projects:hover {
+  background-color: #00ab44;
+}

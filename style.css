@@ -29,3 +29,23 @@ img {
 .Projects:hover {
   background-color: #00ab44;
 }
+
+.jamon {
+  width: 250px;
+  height: 300px;
+  border: 1px solid black;
+  object-fit: cover;
+  object-position: 15% 100%;
+  animation: changeImage 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeImage {
+  from {
+    background-image: url("images/JAMONHAMILTONJR.jpeg");
+  }
+
+  to {
+    background-image: url("images/JAMONHAMILTONJR2.jpeg");
+  }
+}

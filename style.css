@@ -42,6 +42,21 @@ img {
 .navbar {
   animation: slideIn 2s;
 }
+/*call email class and apply change color keyframe*/
+.email {
+  animation: changeColors 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeColors {
+  0% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: blue;
+  }
+}
 
 @keyframes slideIn {
   from {

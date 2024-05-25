@@ -70,10 +70,24 @@ img {
 /*Create keyframe to change profile photos*/
 @keyframes changeImage {
   from {
-    background-image: url("images/JAMONHAMILTONJR.jpeg");
+    background-image: url("./images/JAMONHAMILTONJR.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   to {
-    background-image: url("images/JAMONHAMILTONJR2.jpeg");
+    background-image: url("./images/JAMONHAMILTONJR2.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 412px) and (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 2000px;
+    width: 100px;
   }
 }

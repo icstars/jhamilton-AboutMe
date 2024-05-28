@@ -35,7 +35,7 @@ img {
   height: 600px;
   border: 3px solid black;
   object-fit: fill;
-  animation: changeImage 3s;
+  animation: changeImage 5s;
   animation-iteration-count: infinite;
 }
 /*Create navbar keyframe for sliding*/
@@ -77,6 +77,12 @@ img {
 
   to {
     background-image: url("./images/JAMONHAMILTONJR2.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  to {
+    background-image: url("./images/JAMONHAMILTONJR.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
   }

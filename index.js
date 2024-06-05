@@ -13,7 +13,7 @@ left.addEventListener("click", () => {
 
 right.addEventListener("click", () => {
   //   console.log("Hello World");
-  if (translate > -400) {
+  if (translate > -200) {
     translate = translate - 200;
     carousel.style.transform = "translateX(" + translate + "px)";
   }

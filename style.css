@@ -1,9 +1,35 @@
+.credential-carousel {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.slider {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  /* transform: translateX(300px); */
+  transition: 1s ease;
+}
+
+.slide {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
 h1 {
   color: black;
 }
-img {
-  width: 250px;
-}
+/* img { */
+/* width: 250px; */
+/* } */
 .a {
   background-color: white;
 }
